@@ -1,0 +1,4 @@
+jdk=com.rl.auroralink.serializer.JdkSerializer
+json=com.rl.auroralink.serializer.JsonSerializer
+hessian=com.rl.auroralink.serializer.HessianSerializer
+kryo=com.rl.auroralink.serializer.KryoSerializer
