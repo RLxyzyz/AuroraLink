@@ -38,6 +38,12 @@ public class RegistryTest {
     }
 
     @Test
+    public void heartBeat() throws Exception {
+        register();
+        Thread.sleep(60*1000L);
+    }
+
+    @Test
     public void unRegistry()
     {
         ServiceMetaInfo serviceMetaInfo=new ServiceMetaInfo();

@@ -48,4 +48,16 @@ public interface Registry {
      * */
     void destroy();
 
+
+    /**
+     * 心跳检测机制
+     * */
+    void heartBeat();
+
+
+    /**
+     * 监听（消费者）
+     * */
+    void watch(String serviceNodeKey);
+
 }

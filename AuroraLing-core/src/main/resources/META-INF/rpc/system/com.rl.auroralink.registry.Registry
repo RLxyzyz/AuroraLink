@@ -1,1 +1,2 @@
 etcd=com.rl.auroralink.registry.EtcdRegistry
+zookeeper=com.rl.auroralink.registry.ZookeeperRegistry
